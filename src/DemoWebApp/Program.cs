@@ -1,7 +1,11 @@
+using NATS.Client;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<IConnection>(_ => new ConnectionFactory().CreateConnection("nats://ruser:T0pS3cr3t@localhost:4222"));
+builder.Services.AddHostedService<DemoWebApp.Subscribers.Worker>();
 
 var app = builder.Build();
 

@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DemoWebApp.Subscribers\DemoWebApp.Subscribers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NATS.Client" Version="1.0.2" />
+  </ItemGroup>
+
 </Project>

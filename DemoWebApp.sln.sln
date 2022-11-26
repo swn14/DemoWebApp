@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FC365CC-74B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApp", "src\DemoWebApp\DemoWebApp.csproj", "{4EBE893E-14E3-4872-998E-08FD60FF1E26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApp.Subscribers", "src\DemoWebApp.Subscribers\DemoWebApp.Subscribers.csproj", "{746961E3-4510-41F3-8A3D-3C422909C335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{4EBE893E-14E3-4872-998E-08FD60FF1E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EBE893E-14E3-4872-998E-08FD60FF1E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EBE893E-14E3-4872-998E-08FD60FF1E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746961E3-4510-41F3-8A3D-3C422909C335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746961E3-4510-41F3-8A3D-3C422909C335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746961E3-4510-41F3-8A3D-3C422909C335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746961E3-4510-41F3-8A3D-3C422909C335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4EBE893E-14E3-4872-998E-08FD60FF1E26} = {5FC365CC-74B7-423B-ACCA-029A256B3F70}
+		{746961E3-4510-41F3-8A3D-3C422909C335} = {5FC365CC-74B7-423B-ACCA-029A256B3F70}
 	EndGlobalSection
 EndGlobal
